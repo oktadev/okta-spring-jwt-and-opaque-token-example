@@ -4,8 +4,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.2.6.RELEASE</version>
-        <relativePath /> <!-- lookup parent from repository -->
+        <version>2.4.1</version>
     </parent>
     <groupId>com.okta.example</groupId>
     <artifactId>okta-spring-access-example</artifactId>
@@ -33,7 +32,6 @@
         <dependency>
             <groupId>com.nimbusds</groupId>
             <artifactId>oauth2-oidc-sdk</artifactId>
-            <version>7.3</version>
         </dependency>
 
         <dependency>
